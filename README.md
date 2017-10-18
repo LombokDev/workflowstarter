@@ -6,5 +6,5 @@ initial struktur kegiatan baru sesuai definisi di https://goo.gl/wP9V2C
 `git clone https://github.com/LombokDevMeetup/workflowstarter.git`
 
 ### Buat symbolic link file starter.sh ke folder bin
-`cd workflowstarter`
-`sudo mv $(pwd)/starter.sh /usr/local/bin`
+```cd workflowstarter```
+```sudo ln -s $(pwd)/starter.sh /usr/local/bin```
