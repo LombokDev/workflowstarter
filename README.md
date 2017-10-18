@@ -7,4 +7,5 @@ initial struktur kegiatan baru sesuai definisi di https://goo.gl/wP9V2C
 
 ### Buat symbolic link file starter.sh ke folder bin
 ```cd workflowstarter```
+
 ```sudo ln -s $(pwd)/starter.sh /usr/local/bin```
