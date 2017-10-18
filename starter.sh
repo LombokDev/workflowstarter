@@ -1,7 +1,7 @@
 #!/bin/sh
 mkdir docs slides
 touch {acara,evaluasi,keuangan}.md
-
+touch docs/index.html slides/README.md
 acaradefaultkonten="
 ## Konsep
 {Lightning Talk, Tech Talk, Instant Talk, Bootcamp, Hackathon}
@@ -36,3 +36,5 @@ Detail dan bukti
 echo $acaradefaultkonten > acara.md
 echo $evaluasidefaultkonten > evaluasi.md
 echo $keuangandefaultkonten > keuangan.md
+echo "halaman publikasi" > docs/index.html
+echo "Semua file presentasi bisa dilihat disini" > slides/README.md
