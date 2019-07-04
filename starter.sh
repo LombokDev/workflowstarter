@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 mkdir docs slides
 touch {acara,evaluasi,keuangan,tim}.md
 touch docs/index.html slides/README.md
@@ -40,9 +40,10 @@ timdefaultkonten="
 |--------|-----------------|\n
 "
 
+curl https://raw.githubusercontent.com/LombokDev/wiki/master/event-organizing-guide.md -o checklist.md
 echo -e $acaradefaultkonten > acara.md
 echo -e $evaluasidefaultkonten > evaluasi.md
 echo -e $keuangandefaultkonten > keuangan.md
 echo -e $timdefaultkonten > tim.md
-echo "halaman publikasi" > docs/index.html
-echo "Semua file presentasi bisa dilihat disini" > slides/README.md
+echo "Halaman publikasi" > docs/index.html
+echo "Semua berkas materi bisa dilihat di sini" > slides/README.md
