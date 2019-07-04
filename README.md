@@ -1,11 +1,11 @@
 # workflowstarter
-initial struktur kegiatan baru sesuai definisi di https://goo.gl/wP9V2C
+
+Inisiasi struktur kegiatan baru sesuai definisi di https://goo.gl/wP9V2C.
 
 ## Memulai
-### Clone repository
-`git clone https://github.com/LombokDevMeetup/workflowstarter.git`
 
-### Buat symbolic link file starter.sh ke folder bin
-```cd workflowstarter```
+Jalankan perintah berikut pada direktori kerja.
 
-```sudo ln -s $(pwd)/starter.sh /usr/local/bin/ldm-event-starter```
+```
+curl -o- https://raw.githubusercontent.com/LombokDev/workflowstarter/master/starter.sh | bash
+```
